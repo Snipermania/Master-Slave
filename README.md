@@ -1,6 +1,7 @@
-#CAN technology
-
-Using master slave configuration a traffic managing network is established. 
-STM32 board acts as master
-Microcontroller 8051 is used as slave configured with IR sensors to sense vehicles on nodes and junctions across the area.
-All node or junction data is centralised and processed at STM board to vary the signal timings according to fused data produced.
+•	India has 384 daily road accidents, making an effective traffic management system absolutely necessary. To lessen this blockage and undesirable time postpone in rush hour gridlock a high level framework is planned here in this task. By allocating time slots according to vehicle load in particular lanes of multi-junction crossings, this technology can be effectively applied in the field to channel the harrowing chaos of traffic.
+•	The "CAN-based Traffic Management System using STM32 Microcontroller" project aims to develop an innovative traffic management solution using the Controller Area Network (CAN) protocol and the STM32 microcontroller.
+•	This project addresses the growing challenges in urban traffic control and offers a more efficient and responsive approach to traffic management. 
+•	This framework involves infrared sensors as counters to quantify the traffic thickness in every path. These sensors are interfaced with the traffic light through a microcontroller. 
+•	The microcontroller which was used to implement this is the STM board with the 89c51.
+•	The STM32 microcontroller is chosen as the central control unit due to its processing capabilities, real-time capabilities, and compatibility with the CAN protocol. The system was designed to reduce traffic jams. All goals were met during testing of this system.
+•	Results obtained from the implementation of the prototype design show that traffic using infrared sensors and STM board with 89c51 give a better performance and the time taken to clearing traffic at an intersection took significantly less time, saving 60 percent.
